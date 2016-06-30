@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [KOIMSO_Suite]">
+  <parameter name="BrowserType" value="IE"/>
+  <parameter name="BrowserType1" value="firefox"/>
+  <parameter name="env" value="Local"/>
+  <parameter name="testCaseId" value="KOIMSO-21"/>
+  <listeners>
+    <listener class-name="utility.MsolvListener"/>
+  </listeners>
+  <test name="KOIMSO-21(failed)">
+    <parameter name="testCaseId" value="KOIMSO-21"/>
+    <classes>
+      <class name="msol.VM_TestCases.KOIMSO_21">
+        <methods>
+          <include name="VM_Callout_Functionality" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- msol.VM_TestCases.KOIMSO_21 -->
+    </classes>
+  </test> <!-- KOIMSO-21(failed) -->
+</suite> <!-- Failed suite [KOIMSO_Suite] -->

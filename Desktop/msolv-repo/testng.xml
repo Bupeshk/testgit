@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="KOIMSO_Suite" verbose="1" >
+	<parameter name="env" value="Local" />
+	<listeners> 
+		<listener class-name="utility.MsolvListener" /> 
+	</listeners>
+	<parameter name="BrowserType" value="firefox" /> 
+  	<parameter name="BrowserType1" value="IE" /> 
+
+	<test name="KOIMSO-21" >
+		<parameter name="testCaseId" value="KOIMSO-21" />
+	  	<classes>
+	  		<class name="msol.VM_TestCases.KOIMSO_21"/>		
+	  	</classes>
+	 </test>
+	
+</suite>

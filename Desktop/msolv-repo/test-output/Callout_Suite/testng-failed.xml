@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Callout_Suite]">
+  <parameter name="testCaseId" value="Callout_Functionality"/>
+  <test name="Callout Functionality and Search(failed)">
+    <parameter name="testCaseId" value="Callout_Functionality"/>
+    <classes>
+      <class name="automationFramework.GUI_TestCases.Callout_Functionality">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="R_Callout_Functionality" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- automationFramework.GUI_TestCases.Callout_Functionality -->
+    </classes>
+  </test> <!-- Callout Functionality and Search(failed) -->
+</suite> <!-- Failed suite [Callout_Suite] -->

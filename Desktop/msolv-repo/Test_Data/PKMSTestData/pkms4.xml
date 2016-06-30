@@ -1,0 +1,80 @@
+<PROCESS_WMS_STD_MESSAGE_001>
+    <CNTROLAREA>
+        <BSR>
+            <VERB value="PROCESS">PROCESS</VERB>
+            <NOUN value="WMS">WMS</NOUN>
+            <REVISION value="003">003</REVISION>
+        </BSR>
+        <SENDER>
+            <LOGICALID>CEVAPKMS</LOGICALID>
+            <COMPONENT>SCTWLI</COMPONENT>
+            <TASK>PKMSISSUE</TASK>
+            <REFERENCEID>10023204838609375308</REFERENCEID>
+            <CONFIRMATION>0</CONFIRMATION>
+            <LANGUAGE>ENG</LANGUAGE>
+            <CODEPAGE>ISO 8859-1</CODEPAGE>
+            <AUTHID>PKMSTIB</AUTHID>
+        </SENDER>
+        <DATETIME qualifier="CREATION">
+            <YEAR>2015</YEAR>
+            <MONTH>03</MONTH>
+            <DAY>24</DAY>
+            <HOUR>14</HOUR>
+            <MINUTE>09</MINUTE>
+            <SECOND>57</SECOND>
+            <SUBSECOND>175</SUBSECOND>
+            <TIMEZONE>GMT-04:00</TIMEZONE>
+        </DATETIME>
+    </CNTROLAREA>
+    <DATAAREA>
+        <PROCESS_WMS>
+            <HEADER>
+                <TRAN_CODE>340</TRAN_CODE>
+                <DESCRIPTION>GOODS ISSUE</DESCRIPTION>
+                <WO_NUMBER>1146182 </WO_NUMBER>
+                <PO_NUMBER>8600115972</PO_NUMBER>
+                <OWNER_ID>BCLM</OWNER_ID>
+                <WAREHOUSE_ID>BCLB</WAREHOUSE_ID>
+                <DATETIME qualifier="NOTIFY">
+                    <YEAR>2015</YEAR>
+                    <MONTH>03</MONTH>
+                    <DAY>24</DAY>
+                    <HOUR>14</HOUR>
+                    <MINUTE>09</MINUTE>
+                    <SECOND>57</SECOND>
+                    <SUBSECOND>175</SUBSECOND>
+                    <TIMEZONE>GMT-04:00</TIMEZONE>
+                </DATETIME>
+                <ORDER_TYPE>S</ORDER_TYPE>
+                <STATE_CODE>PA</STATE_CODE>
+                <TRACKING_NUMBER>CO6580808</TRACKING_NUMBER>
+                <DETAIL>
+                    <LINENUM>00020</LINENUM>
+                    <ITEM_NUMBER>536687</ITEM_NUMBER>
+                    <ITEM_DESCRIPTION>CAT5E ENHANCED KRONE JACK</ITEM_DESCRIPTION>
+                    <PART_NUMBER/>
+                    <QUANTITY qualifier="RECEIVED">
+                        <VALUE>1</VALUE>
+                        <NUMOFDEC>0</NUMOFDEC>
+                        <SIGN>+</SIGN>
+                        <UOM>FT</UOM>
+                    </QUANTITY>
+                    <SERIAL_NUMBER/>
+                </DETAIL>
+				<DETAIL>
+                    <LINENUM>00020</LINENUM>
+                    <ITEM_NUMBER>536687</ITEM_NUMBER>
+                    <ITEM_DESCRIPTION>CAT5E ENHANCED KRONE JACK</ITEM_DESCRIPTION>
+                    <PART_NUMBER/>
+                    <QUANTITY qualifier="RECEIVED">
+                        <VALUE>1</VALUE>
+                        <NUMOFDEC>0</NUMOFDEC>
+                        <SIGN>+</SIGN>
+                        <UOM>FT</UOM>
+                    </QUANTITY>
+                    <SERIAL_NUMBER/>
+                </DETAIL>
+            </HEADER>
+        </PROCESS_WMS>
+    </DATAAREA>
+</PROCESS_WMS_STD_MESSAGE_001>

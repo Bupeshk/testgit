@@ -1,0 +1,40 @@
+<!--?xml version="1.0" ?-->
+<html xmlns="http://www.w3.org/1999/xhtml"><head></head><body><confirm_bod_ba_001>
+<cntrolarea>
+<bsr> 
+<verb value="PROCESS">PROCESS</verb>
+<noun value="PO">PO</noun>
+<revision value="004">004</revision>
+</bsr>
+<sender>
+<logicalid>VZLOG_ACK</logicalid>
+<component>VZL</component>
+<task>ACK</task>
+<referenceid>0000000133959178</referenceid>
+<confirmation>2</confirmation>
+<language>ENG</language>
+<codepage>ISO 8859-1</codepage>
+<authid>SAPWLI</authid>
+</sender>
+<datetime qualifier="CREATION">
+<year>2015</year>
+<month>11</month>
+<day>24</day>
+<hour>4</hour>
+<minute>35</minute>
+<second>34</second>
+</datetime>
+</cntrolarea>
+<dataarea>
+<confirm_bod>
+<primary_key>
+<poid>8613124655</poid>
+<porelease>0</porelease>
+<ccrn_num>BSHA04PVJ4</ccrn_num>
+</primary_key>
+<ackcode>3</ackcode>
+<descriptn>Duplicate transaction</descriptn>
+</confirm_bod>
+</dataarea>
+</confirm_bod_ba_001>
+</body></html>

@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite"  parallel="tests" thread-count="1"> 
+	<listeners> 
+		<parameter name="env" value="Local" />
+		<parameter name="browser" value="Firefox" /> 
+		<!-- <parameter name="browser" value="internetexplorer" /> -->
+		<listener class-name="com.verizon.cao.selenium.testcase.Driver" /> 
+	</listeners>
+	
+	<test name="CJO-1"> 
+	<parameter name="testCaseId" value="CJO-1" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+	</classes> 
+	</test>	 
+	
+	
+	
+	<!-- <test name="CJO-1"> 
+	<parameter name="testCaseId" value="CJO-1" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+	</classes> 
+	</test>	 
+	<test name="CJO-2"> 
+		<parameter name="testCaseId" value="CJO-2" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test>  
+	
+	<test name="CJO-3"> 
+		<parameter name="testCaseId" value="CJO-3" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	 </test>  
+	 <test name="CJO-4"> 
+		<parameter name="testCaseId" value="CJO-4" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test>  -->
+	
+	<!-- <test name="ATJ-01"> 
+	<parameter name="testCaseId" value="ATJ-01" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	
+	<test name="ATJ-02"> 
+	<parameter name="testCaseId" value="ATJ-02" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-03"> 
+	<parameter name="testCaseId" value="ATJ-03" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-04"> 
+	<parameter name="testCaseId" value="ATJ-04" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test> 
+	<test name="ATJ-05"> 
+	<parameter name="testCaseId" value="ATJ-05" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-06"> 
+	<parameter name="testCaseId" value="ATJ-06" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-07"> 
+	<parameter name="testCaseId" value="ATJ-07" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-08"> 
+	<parameter name="testCaseId" value="ATJ-08" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>-->
+	
+		
+	<!-- <test name="REE-01"> 
+	<parameter name="testCaseId" value="REE-01" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-02"> 
+	<parameter name="testCaseId" value="REE-02" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-03"> 
+	<parameter name="testCaseId" value="REE-03" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-04"> 
+	<parameter name="testCaseId" value="REE-04" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-05"> 
+	<parameter name="testCaseId" value="REE-05" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-06"> 
+	<parameter name="testCaseId" value="REE-06" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-07"> 
+	<parameter name="testCaseId" value="REE-07" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-08"> 
+	<parameter name="testCaseId" value="REE-08" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-09"> 
+	<parameter name="testCaseId" value="REE-09" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-10"> 
+	<parameter name="testCaseId" value="REE-10" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-11"> 
+	<parameter name="testCaseId" value="REE-11" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-12"> 
+	<parameter name="testCaseId" value="REE-12" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-13"> 
+	<parameter name="testCaseId" value="REE-13" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-14"> 
+	<parameter name="testCaseId" value="REE-14" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-15"> 
+	<parameter name="testCaseId" value="REE-15" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-16"> 
+	<parameter name="testCaseId" value="REE-16" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-17"> 
+	<parameter name="testCaseId" value="REE-17" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-18"> 
+	<parameter name="testCaseId" value="REE-18" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-19"> 
+	<parameter name="testCaseId" value="REE-19" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-20"> 
+	<parameter name="testCaseId" value="REE-20" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-21"> 
+	<parameter name="testCaseId" value="REE-21" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-22"> 
+	<parameter name="testCaseId" value="REE-22" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-23"> 
+	<parameter name="testCaseId" value="REE-23" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-24"> 
+	<parameter name="testCaseId" value="REE-24" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	
+	<test name="REE-25"> 
+	<parameter name="testCaseId" value="REE-25" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-26"> 
+	<parameter name="testCaseId" value="REE-26" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-27"> 
+	<parameter name="testCaseId" value="REE-27" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-28"> 
+	<parameter name="testCaseId" value="REE-28" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-29"> 
+	<parameter name="testCaseId" value="REE-29" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-30"> 
+	<parameter name="testCaseId" value="REE-30" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-31"> 
+	<parameter name="testCaseId" value="REE-31" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-32"> 
+	<parameter name="testCaseId" value="REE-32" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-33"> 
+	<parameter name="testCaseId" value="REE-33" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-34"> 
+	<parameter name="testCaseId" value="REE-34" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-35"> 
+	<parameter name="testCaseId" value="REE-35" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-36"> 
+	<parameter name="testCaseId" value="REE-36" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-37"> 
+	<parameter name="testCaseId" value="REE-37" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-38"> 
+	<parameter name="testCaseId" value="REE-38" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	 -->
+	
+ 	<!-- <test name="CJO-1"> 
+	<parameter name="testCaseId" value="CJO-1" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+	</classes> 
+	</test>	 
+	<test name="CJO-2"> 
+		<parameter name="testCaseId" value="CJO-2" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test>  
+	
+	<test name="CJO-3"> 
+		<parameter name="testCaseId" value="CJO-3" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	 </test>  
+	 <test name="CJO-4"> 
+		<parameter name="testCaseId" value="CJO-4" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test> 
+		<test name="CJO-5"> 
+		<parameter name="testCaseId" value="CJO-5" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test>
+	<test name="CJO-6"> 
+		<parameter name="testCaseId" value="CJO-6" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test> 
+	<test name="CJO-7"> 
+		<parameter name="testCaseId" value="CJO-7" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test>
+		<test name="CJO-8"> 
+		<parameter name="testCaseId" value="CJO-8" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test>
+	<test name="CJO-9"> 
+		<parameter name="testCaseId" value="CJO-9" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test>  
+	<test name="CJO-10"> 
+		<parameter name="testCaseId" value="CJO-10" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test> 
+	<test name="CJO-11"> 
+		<parameter name="testCaseId" value="CJO-11" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test>   
+	<test name="CJO-12"> 
+		<parameter name="testCaseId" value="CJO-12" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test> 
+	
+	<test name="CJO-13"> 
+		<parameter name="testCaseId" value="CJO-13" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test> 
+	<test name="CJO-14"> 
+		<parameter name="testCaseId" value="CJO-14" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test> 
+	<test name="CJO-15"> 
+		<parameter name="testCaseId" value="CJO-15" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test> 
+	<test name="CJO-16"> 
+		<parameter name="testCaseId" value="CJO-16" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test> 
+	<test name="CJO-17"> 
+		<parameter name="testCaseId" value="CJO-17" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test> 
+	<test name="CJO-18"> 
+		<parameter name="testCaseId" value="CJO-18" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test> 
+	<test name="CJO-19"> 
+		<parameter name="testCaseId" value="CJO-19" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test> 
+	<test name="CJO-20"> 
+		<parameter name="testCaseId" value="CJO-20" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test> 
+	<test name="CJO-21"> 
+		<parameter name="testCaseId" value="CJO-21" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test> 
+	<test name="CJO-22"> 
+		<parameter name="testCaseId" value="CJO-22" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test> 
+	<test name="CJO-23"> 
+		<parameter name="testCaseId" value="CJO-23" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test> 
+	<test name="CJO-24"> 
+		<parameter name="testCaseId" value="CJO-24" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test> 
+	<test name="CJO-25"> 
+		<parameter name="testCaseId" value="CJO-25" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test> 
+	<test name="CJO-26"> 
+		<parameter name="testCaseId" value="CJO-26" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test> 
+	<test name="CJO-27"> 
+		<parameter name="testCaseId" value="CJO-27" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test> 
+	<test name="CJO-28"> 
+		<parameter name="testCaseId" value="CJO-28" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test> 
+	<test name="CJO-29"> 
+		<parameter name="testCaseId" value="CJO-29" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test> 
+	<test name="CJO-30"> 
+		<parameter name="testCaseId" value="CJO-30" />
+		<classes> 
+			<class name="com.verizon.cao.selenium.modules.Create_Job_Opening" /> 
+		</classes> 
+	</test> 
+	
+	 -->
+	
+	<!--  <test name="ATJ-01"> 
+	<parameter name="testCaseId" value="ATJ-01" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	
+	<test name="ATJ-02"> 
+	<parameter name="testCaseId" value="ATJ-02" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-03"> 
+	<parameter name="testCaseId" value="ATJ-03" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-04"> 
+	<parameter name="testCaseId" value="ATJ-04" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-05"> 
+	<parameter name="testCaseId" value="ATJ-05" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-06"> 
+	<parameter name="testCaseId" value="ATJ-06" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-07"> 
+	<parameter name="testCaseId" value="ATJ-07" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-08"> 
+	<parameter name="testCaseId" value="ATJ-08" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-09"> 
+	<parameter name="testCaseId" value="ATJ-09" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-10"> 
+	<parameter name="testCaseId" value="ATJ-10" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-11"> 
+	<parameter name="testCaseId" value="ATJ-11" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-12"> 
+	<parameter name="testCaseId" value="ATJ-12" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-13"> 
+	<parameter name="testCaseId" value="ATJ-13" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-14"> 
+	<parameter name="testCaseId" value="ATJ-14" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-15"> 
+	<parameter name="testCaseId" value="ATJ-15" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-16"> 
+	<parameter name="testCaseId" value="ATJ-16" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-17"> 
+	<parameter name="testCaseId" value="ATJ-17" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-18"> 
+	<parameter name="testCaseId" value="ATJ-18" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-19"> 
+	<parameter name="testCaseId" value="ATJ-19" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-20"> 
+	<parameter name="testCaseId" value="ATJ-20" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-21"> 
+	<parameter name="testCaseId" value="ATJ-21" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-22"> 
+	<parameter name="testCaseId" value="ATJ-22" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-23"> 
+	<parameter name="testCaseId" value="ATJ-23" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-24"> 
+	<parameter name="testCaseId" value="ATJ-24" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	<test name="ATJ-25"> 
+	<parameter name="testCaseId" value="ATJ-25" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	
+	<test name="ATJ-26"> 
+	<parameter name="testCaseId" value="ATJ-26" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	
+	<test name="ATJ-27"> 
+	<parameter name="testCaseId" value="ATJ-27" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	 
+	
+	<test name="ATJ-28"> 
+	<parameter name="testCaseId" value="ATJ-28" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	
+	<test name="ATJ-29"> 
+	<parameter name="testCaseId" value="ATJ-29" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test> 
+	<test name="ATJ-30"> 
+	<parameter name="testCaseId" value="ATJ-30" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test> 
+	<test name="ATJ-31"> 
+	<parameter name="testCaseId" value="ATJ-31" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>  
+	
+	<test name="ATJ-32"> 
+	<parameter name="testCaseId" value="ATJ-32" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>  
+	<test name="ATJ-33"> 
+	<parameter name="testCaseId" value="ATJ-33" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>  
+	<test name="ATJ-34"> 
+	<parameter name="testCaseId" value="ATJ-34" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>  
+	<test name="ATJ-35"> 
+	<parameter name="testCaseId" value="ATJ-35" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>  
+	<test name="ATJ-36"> 
+	<parameter name="testCaseId" value="ATJ-36" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>  
+	<test name="ATJ-37"> 
+	<parameter name="testCaseId" value="ATJ-37" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>  
+	<test name="ATJ-38"> 
+	<parameter name="testCaseId" value="ATJ-38" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Apply_To_Jobs" /> 
+	</classes> 
+	</test>
+	 -->
+		
+		
+		
+	<!-- <test name="REE-01"> 
+	<parameter name="testCaseId" value="REE-01" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	
+	<test name="REE-02"> 
+	<parameter name="testCaseId" value="REE-02" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-03"> 
+	<parameter name="testCaseId" value="REE-03" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-04"> 
+	<parameter name="testCaseId" value="REE-04" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-05"> 
+	<parameter name="testCaseId" value="REE-05" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-06"> 
+	<parameter name="testCaseId" value="REE-06" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-07"> 
+	<parameter name="testCaseId" value="REE-07" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-08"> 
+	<parameter name="testCaseId" value="REE-08" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-09"> 
+	<parameter name="testCaseId" value="REE-09" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-10"> 
+	<parameter name="testCaseId" value="REE-10" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-11"> 
+	<parameter name="testCaseId" value="REE-11" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-12"> 
+	<parameter name="testCaseId" value="REE-12" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-13"> 
+	<parameter name="testCaseId" value="REE-13" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-14"> 
+	<parameter name="testCaseId" value="REE-14" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-15"> 
+	<parameter name="testCaseId" value="REE-15" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-16"> 
+	<parameter name="testCaseId" value="REE-16" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-17"> 
+	<parameter name="testCaseId" value="REE-17" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-18"> 
+	<parameter name="testCaseId" value="REE-18" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-19"> 
+	<parameter name="testCaseId" value="REE-19" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test>
+	<test name="REE-20"> 
+	<parameter name="testCaseId" value="REE-20" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Recruiter_E2E_Action" /> 
+	</classes> 
+	</test> -->
+		
+		
+	<!-- <test name="PFH-01"> 
+	<parameter name="testCaseId" value="PFH-01" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Prepare_For_Hire" /> 
+	</classes> 
+	</test>
+	
+	<test name="PFH-02"> 
+	<parameter name="testCaseId" value="PFH-02" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Prepare_For_Hire" /> 
+	</classes> 
+	</test>
+	<test name="PFH-03"> 
+	<parameter name="testCaseId" value="PFH-03" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Prepare_For_Hire" /> 
+	</classes> 
+	</test>
+	<test name="PFH-04"> 
+	<parameter name="testCaseId" value="PFH-04" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Prepare_For_Hire" /> 
+	</classes> 
+	</test>
+	<test name="PFH-05"> 
+	<parameter name="testCaseId" value="PFH-05" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Prepare_For_Hire" /> 
+	</classes> 
+	</test>
+	<test name="PFH-06"> 
+	<parameter name="testCaseId" value="PFH-06" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Prepare_For_Hire" /> 
+	</classes> 
+	</test>
+	<test name="PFH-07"> 
+	<parameter name="testCaseId" value="PFH-07" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Prepare_For_Hire" /> 
+	</classes> 
+	</test>
+	<test name="PFH-08"> 
+	<parameter name="testCaseId" value="PFH-08" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Prepare_For_Hire" /> 
+	</classes> 
+	</test>
+	<test name="PFH-09"> 
+	<parameter name="testCaseId" value="PFH-09" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Prepare_For_Hire" /> 
+	</classes> 
+	</test>
+	<test name="PFH-10"> 
+	<parameter name="testCaseId" value="PFH-10" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Prepare_For_Hire" /> 
+	</classes> 
+	</test>
+	<test name="PFH-11"> 
+	<parameter name="testCaseId" value="PFH-11" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Prepare_For_Hire" /> 
+	</classes> 
+	</test>
+	<test name="PFH-12"> 
+	<parameter name="testCaseId" value="PFH-12" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Prepare_For_Hire" /> 
+	</classes> 
+	</test>
+	<test name="PFH-13"> 
+	<parameter name="testCaseId" value="PFH-13" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Prepare_For_Hire" /> 
+	</classes> 
+	</test>
+	<test name="PFH-14"> 
+	<parameter name="testCaseId" value="PFH-14" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Prepare_For_Hire" /> 
+	</classes> 
+	</test>
+	<test name="PFH-15"> 
+	<parameter name="testCaseId" value="PFH-15" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Prepare_For_Hire" /> 
+	</classes> 
+	</test>
+	<test name="PFH-16"> 
+	<parameter name="testCaseId" value="PFH-16" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Prepare_For_Hire" /> 
+	</classes> 
+	</test>
+	<test name="PFH-17"> 
+	<parameter name="testCaseId" value="PFH-17" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Prepare_For_Hire" /> 
+	</classes> 
+	</test>
+	<test name="PFH-18"> 
+	<parameter name="testCaseId" value="PFH-18" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Prepare_For_Hire" /> 
+	</classes> 
+	</test>
+	<test name="PFH-19"> 
+	<parameter name="testCaseId" value="PFH-19" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Prepare_For_Hire" /> 
+	</classes> 
+	</test>
+	<test name="PFH-20"> 
+	<parameter name="testCaseId" value="PFH-20" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Prepare_For_Hire" /> 
+	</classes> 
+	</test>
+	<test name="PFH-21"> 
+	<parameter name="testCaseId" value="PFH-21" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Prepare_For_Hire" /> 
+	</classes> 
+	</test>
+	<test name="PFH-22"> 
+	<parameter name="testCaseId" value="PFH-22" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Prepare_For_Hire" /> 
+	</classes> 
+	</test>
+	<test name="PFH-23"> 
+	<parameter name="testCaseId" value="PFH-23" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Prepare_For_Hire" /> 
+	</classes> 
+	</test>
+	<test name="PFH-24"> 
+	<parameter name="testCaseId" value="PFH-24" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Prepare_For_Hire" /> 
+	</classes> 
+	</test> -->
+		
+		
+		
+		
+<!-- <test name="MHR-01"> 
+	<parameter name="testCaseId" value="MHR-01" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	
+	<test name="MHR-02"> 
+	<parameter name="testCaseId" value="MHR-02" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-03"> 
+	<parameter name="testCaseId" value="MHR-03" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-04"> 
+	<parameter name="testCaseId" value="MHR-04" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-05"> 
+	<parameter name="testCaseId" value="MHR-05" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-06"> 
+	<parameter name="testCaseId" value="MHR-06" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-07"> 
+	<parameter name="testCaseId" value="MHR-07" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-08"> 
+	<parameter name="testCaseId" value="MHR-08" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-09"> 
+	<parameter name="testCaseId" value="MHR-09" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-10"> 
+	<parameter name="testCaseId" value="MHR-10" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-11"> 
+	<parameter name="testCaseId" value="MHR-11" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-12"> 
+	<parameter name="testCaseId" value="MHR-12" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-13"> 
+	<parameter name="testCaseId" value="MHR-13" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-14"> 
+	<parameter name="testCaseId" value="MHR-14" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-15"> 
+	<parameter name="testCaseId" value="MHR-15" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-16"> 
+	<parameter name="testCaseId" value="MHR-16" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-17"> 
+	<parameter name="testCaseId" value="MHR-17" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-18"> 
+	<parameter name="testCaseId" value="MHR-18" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-19"> 
+	<parameter name="testCaseId" value="MHR-19" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-20"> 
+	<parameter name="testCaseId" value="MHR-20" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-21"> 
+	<parameter name="testCaseId" value="MHR-21" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-22"> 
+	<parameter name="testCaseId" value="MHR-22" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-23"> 
+	<parameter name="testCaseId" value="MHR-23" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-24"> 
+	<parameter name="testCaseId" value="MHR-24" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-25"> 
+	<parameter name="testCaseId" value="MHR-25" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-26"> 
+	<parameter name="testCaseId" value="MHR-26" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-27"> 
+	<parameter name="testCaseId" value="MHR-27" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test><test name="MHR-28"> 
+	<parameter name="testCaseId" value="MHR-28" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-29"> 
+	<parameter name="testCaseId" value="MHR-29" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test>
+	<test name="MHR-30"> 
+	<parameter name="testCaseId" value="MHR-30" />
+	<classes> 
+		<class name="com.verizon.cao.selenium.modules.Manage_Hire" /> 
+	</classes> 
+	</test> -->
+		
+	
+			
+</suite>

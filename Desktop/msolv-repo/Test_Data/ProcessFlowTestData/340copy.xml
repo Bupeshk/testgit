@@ -1,0 +1,67 @@
+<PROCESS_WMS_STD_MESSAGE_001>
+    <CNTROLAREA>
+        <BSR>
+            <VERB value="PROCESS">PROCESS</VERB>
+            <NOUN value="WMS">WMS</NOUN>
+            <REVISION value="003">003</REVISION>
+        </BSR>
+        <SENDER>
+            <LOGICALID>CEVAPKMS</LOGICALID>
+            <COMPONENT>SCTWLI</COMPONENT>
+            <TASK>PKMSISSUE</TASK>
+            <REFERENCEID>36002004788600114101</REFERENCEID>
+            <CONFIRMATION>0</CONFIRMATION>
+            <LANGUAGE>ENG</LANGUAGE>
+            <CODEPAGE>ISO 8859-1</CODEPAGE>
+            <AUTHID>PKMSTIB</AUTHID>
+        </SENDER>
+        <DATETIME qualifier="CREATION">
+            <YEAR>2014</YEAR>
+            <MONTH>06</MONTH>
+            <DAY>10</DAY>
+            <HOUR>08</HOUR>
+            <MINUTE>29</MINUTE>
+            <SECOND>21</SECOND>
+            <SUBSECOND>137</SUBSECOND>
+            <TIMEZONE>GMT-04:00</TIMEZONE>
+        </DATETIME>
+    </CNTROLAREA>
+    <DATAAREA>
+        <PROCESS_WMS>
+            <HEADER>
+                <TRAN_CODE>340</TRAN_CODE>
+                <DESCRIPTION>GOODS ISSUE</DESCRIPTION>
+                <WO_NUMBER>1144344</WO_NUMBER>
+                <PO_NUMBER>8600113996</PO_NUMBER>
+                <OWNER_ID>BCLM</OWNER_ID>
+                <WAREHOUSE_ID>BCLB</WAREHOUSE_ID>
+                <DATETIME qualifier="NOTIFY">
+                    <YEAR>2014</YEAR>
+                    <MONTH>06</MONTH>
+                    <DAY>10</DAY>
+                    <HOUR>08</HOUR>
+                    <MINUTE>29</MINUTE>
+                    <SECOND>21</SECOND>
+                    <SUBSECOND>137</SUBSECOND>
+                    <TIMEZONE>GMT-04:00</TIMEZONE>
+                </DATETIME>
+                <ORDER_TYPE>S</ORDER_TYPE>
+                <STATE_CODE>PA</STATE_CODE>
+                <TRACKING_NUMBER>CO6579821</TRACKING_NUMBER>
+                <DETAIL>
+                    <LINENUM>00020</LINENUM>
+                    <ITEM_NUMBER>343726</ITEM_NUMBER>
+                    <ITEM_DESCRIPTION>CAP RUBBER 2 SIDE BAR CABLE RACK PA</ITEM_DESCRIPTION>
+                    <PART_NUMBER/>
+                    <QUANTITY qualifier="RECEIVED">
+                        <VALUE>1</VALUE>
+                        <NUMOFDEC>0</NUMOFDEC>
+                        <SIGN>+</SIGN>
+                        <UOM>EA</UOM>
+                    </QUANTITY>
+                    <SERIAL_NUMBER/>
+                </DETAIL>
+            </HEADER>
+        </PROCESS_WMS>
+    </DATAAREA>
+</PROCESS_WMS_STD_MESSAGE_001>

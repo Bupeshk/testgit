@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<listeners> 
+		<listener class-name="com.verizon.cao.selenium.setup.Driver" /> 
+	</listeners>
+	<parameter name="launchBrowser" value="Internet"/>
+	<parameter name="env" value="Local"/>
+	 <!--<test name="EW_50"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_50" />
+		</classes>
+	</test>
+	<test name="EW_51"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_51" />
+		</classes>
+	</test>
+	<test name="EW_52"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_52" />
+		</classes>
+	</test>
+	<test name="EW_53"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_53" />
+		</classes>
+	</test>
+	<test name="EW_54"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_54" />
+		</classes>
+	</test>
+	<test name="EW_55"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_55" />
+		</classes>
+	</test>
+	<test name="EW_56"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_56" />
+		</classes>
+	</test>
+	<test name="EW_57"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_57" />
+		</classes>
+	</test>
+	<test name="EW_58"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_58" />
+		</classes>
+	</test>
+	<test name="EW_59"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_59" />
+		</classes>
+	</test>
+	<test name="EW_60"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_60" />
+		</classes>
+	</test>
+	<test name="EW_61"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_61" />
+		</classes>
+	</test>
+	<test name="EW_63"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_63" />
+		</classes>
+	</test>
+	 <test name="EW_62"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_62" />
+		</classes>
+	</test> 
+	<test name="EW_64"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_64" />
+		</classes>
+	</test>
+	<test name="EW_65"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_65" />
+		</classes>
+	</test>
+	<test name="EW_66"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_66" />
+		</classes>
+	</test>
+	<test name="EW_67"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_67" />
+		</classes>
+	</test>
+	<test name="EW_68"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_68" />
+		</classes>
+	</test>
+	<test name="EW_69"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_69" />
+		</classes>
+	</test>
+	<test name="EW_70"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_70" />
+		</classes>
+	</test>
+	<test name="EW_71"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_71" />
+		</classes>
+	</test>
+	<test name="EW_72"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_72" />
+		</classes>
+	</test>
+	<test name="EW_73"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_73" />
+		</classes>
+	</test>-->
+	<test name="EW_74"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_74" />
+		</classes>
+	</test>
+	<!--<test name="EW_75"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_75" />
+		</classes>
+	</test>
+	<test name="EW_76"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_76" />
+		</classes>
+	</test>
+	<test name="EW_77"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_77" />
+		</classes>
+	</test>
+	<test name="EW_78"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_78" />
+		</classes>
+	</test>
+	<test name="EW_79"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_79" />
+		</classes>
+	</test>
+	<test name="EW_80"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_80" />
+		</classes>
+	</test>
+	<test name="EW_81"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_81" />
+		</classes>
+	</test>
+	<test name="EW_129"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_129" />
+		</classes>
+	</test>
+	<test name="EW_82"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_82" />
+		</classes>
+	</test>
+	<test name="EW_83"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_83" />
+		</classes>
+	</test>
+	<test name="EW_84"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_84" />
+		</classes>
+	</test>
+	<test name="EW_85"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_85" />
+		</classes>
+	</test>
+	<test name="EW_86"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_86" />
+		</classes>
+	</test>
+	<test name="EW_87"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_87" />
+		</classes>
+	</test>
+	<test name="EW_88"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_88" />
+		</classes>
+	</test>
+	
+	<test name="EW_89"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_89" />
+		</classes>
+	</test>
+	<test name="EW_90"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_90" />
+		</classes>
+	</test>
+	<test name="EW_91"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_91" />
+		</classes>
+	</test>
+	<test name="EW_92"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_92" />
+		</classes>
+	</test>
+	<test name="EW_93"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_93" />
+		</classes>
+	</test>
+	<test name="EW_94"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_94" />
+		</classes>
+	</test> 
+	<test name="EW_95"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_95" />
+		</classes>
+	</test>
+	<test name="EW_96"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_96" />
+		</classes>
+	</test>
+	<test name="EW_97"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_97" />
+		</classes>
+	</test>
+	 <test name="EW_98"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_98" />
+		</classes>
+	</test>
+	<test name="EW_99"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_99" />
+		</classes>
+	</test>
+	<test name="EW_100"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_100" />
+		</classes>
+	</test>
+	 <test name="EW_102"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_102" />
+		</classes>
+	</test>
+	 <test name="EW_101"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_101" />
+		</classes>
+	</test>
+  <test name="EW_103"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_103" />
+		</classes>
+	</test>
+	<test name="EW_104"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_104" />
+		</classes>
+	</test>
+    <test name="EW_105"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_105" />
+		</classes>
+	</test>
+	<test name="EW_106"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_106" />
+		</classes>
+	</test>
+	<test name="EW_107"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_107" />
+		</classes>
+	</test>
+	<test name="EW_108"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_108" />
+		</classes>
+	</test>
+	<test name="EW_109"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_109" />
+		</classes>
+	</test>
+	<test name="EW_110"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_110" />
+		</classes>
+	</test>
+	<test name="EW_111"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_111" />
+		</classes>
+	</test>
+	<test name="EW_112"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_112" />
+		</classes>
+	</test>
+	<test name="EW_113"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_113" />
+		</classes>
+	</test>
+	<test name="EW_114"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_114" />
+		</classes>
+	</test>
+	<test name="EW_115"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_115" />
+		</classes>
+	</test>
+	 <test name="EW_116"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_116" />
+		</classes>
+	</test>
+	<test name="EW_117"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_117" />
+		</classes>
+	</test>
+	<test name="EW_118"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_118" />
+		</classes>
+	</test>
+	<test name="EW_119"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_119" />
+		</classes>
+	</test>
+	<test name="EW_120"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_120" />
+		</classes>
+	</test>
+	<test name="EW_121"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_121" />
+		</classes>
+	</test>
+	<test name="EW_122"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_122" />
+		</classes>
+	</test>
+	<test name="EW_123"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_123" />
+		</classes>
+	</test>
+	<test name="EW_124"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_124" />
+		</classes>
+	</test>
+	<test name="EW_125"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_125" />
+		</classes>
+	</test>
+	<test name="EW_126"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_126" />
+		</classes>
+	</test>
+	<test name="EW_127"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_127" />
+		</classes>
+	</test>
+	<test name="EW_128"> 
+		<classes> 
+			<class name="com.verizon.cao.selenium.End_User_Test.EW_128" />
+		</classes>
+	</test>-->
+</suite>		
+		<!--  EndUser  -->
+	   
+		<!--  Authoring  -->
+		<!--
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_130" />
+		  
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_131" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_132" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_133" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_134" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_135" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_136" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_137" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_138" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_139" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_140" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_141" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_142" />
+		  
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_143" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_144" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_145" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_146" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_147" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_148" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_149" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_150" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_151" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_152" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_153" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_154" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_155" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_156" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_157" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_158" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_159" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_160" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_161" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_162" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_163" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_164" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_165" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_166" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_167" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_168" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_169" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_170" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_171" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_172" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_173" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_174" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_175" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_176" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_177" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_178" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_179" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_180" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_181" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_182" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_183" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_184" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_185" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_186" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_187" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_188" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_189" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_190" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_191" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_192" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_193" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_194" />
+		
+		<class name="com.verizon.cao.selenium.authoring.tests.EW_195" />
+		-->
+		<!--  Admin  -->
+		 <!-- 
+		<class name="com.verizon.cao.selenium.admin.test.EW_196" />
+
+		<class name="com.verizon.cao.selenium.admin.test.EW_197" />
+	
+		<class name="com.verizon.cao.selenium.admin.test.EW_198" />
+	
+		<class name="com.verizon.cao.selenium.admin.test.EW_199" />
+	
+		<class name="com.verizon.cao.selenium.admin.test.EW_200" />
+	
+		<class name="com.verizon.cao.selenium.admin.test.EW_201" />
+	 
+		<class name="com.verizon.cao.selenium.admin.test.EW_202" />
+	
+		<class name="com.verizon.cao.selenium.admin.test.EW_203" />
+	 
+		<class name="com.verizon.cao.selenium.admin.test.EW_204" />
+	
+		<class name="com.verizon.cao.selenium.admin.test.EW_205" />
+		
+		<class name="com.verizon.cao.selenium.admin.test.EW_206" />
+		
+		<class name="com.verizon.cao.selenium.admin.test.EW_207" />
+		
+		<class name="com.verizon.cao.selenium.admin.test.EW_208" />
+		
+		<class name="com.verizon.cao.selenium.admin.test.EW_209" />
+		
+		<class name="com.verizon.cao.selenium.admin.test.EW_210" />
+		
+		<class name="com.verizon.cao.selenium.admin.test.EW_211" />
+		
+		<class name="com.verizon.cao.selenium.admin.test.EW_212" />
+		
+		<class name="com.verizon.cao.selenium.admin.test.EW_213" />
+		
+		<class name="com.verizon.cao.selenium.admin.test.EW_214" />
+		
+		<class name="com.verizon.cao.selenium.admin.test.EW_215" />
+		
+		<class name="com.verizon.cao.selenium.admin.test.EW_216" />
+		
+		<class name="com.verizon.cao.selenium.admin.test.EW_217" />
+		
+		<class name="com.verizon.cao.selenium.admin.test.EW_218" />
+		
+		<class name="com.verizon.cao.selenium.admin.test.EW_219" />
+		
+		<class name="com.verizon.cao.selenium.admin.test.EW_220" />
+		
+		<class name="com.verizon.cao.selenium.admin.test.EW_221" />
+		
+		<class name="com.verizon.cao.selenium.admin.test.EW_222" />
+		
+		<class name="com.verizon.cao.selenium.admin.test.EW_223" />
+		
+		<class name="com.verizon.cao.selenium.admin.test.EW_224" />
+		
+		<class name="com.verizon.cao.selenium.admin.test.EW_225" />
+		
+		<class name="com.verizon.cao.selenium.admin.test.EW_226" />	
+		
+		-->

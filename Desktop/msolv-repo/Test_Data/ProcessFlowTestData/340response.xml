@@ -1,0 +1,39 @@
+<!--?xml version="1.0" ?-->
+<html xmlns="http://www.w3.org/1999/xhtml"><head></head><body><confirm_bod_ba_001>
+<cntrolarea>
+<bsr> 
+<verb value="PROCESS">PROCESS</verb>
+<noun value="WMS">WMS</noun>
+<revision value="004">004</revision>
+</bsr>
+<sender>
+<logicalid>VZLOG_ACK</logicalid>
+<component>VZL</component>
+<task>ACK</task>
+<referenceid>36002004788600114102</referenceid>
+<confirmation>0</confirmation>
+<language>ENG</language>
+<codepage>ISO 8859-1</codepage>
+<authid>PKMSTIB</authid>
+</sender>
+<datetime qualifier="CREATION">
+<year>2015</year>
+<month>12</month>
+<day>23</day>
+<hour>10</hour>
+<minute>38</minute>
+<second>44</second>
+<subsecond>430</subsecond>
+<timezone>GMT-04:00</timezone>
+</datetime>
+</cntrolarea>
+<dataarea>
+<confirm_bod>
+<primary_key>
+</primary_key>
+<ackcode>0</ackcode>
+<descriptn>Accepted</descriptn>
+</confirm_bod>
+</dataarea>
+</confirm_bod_ba_001>
+</body></html>

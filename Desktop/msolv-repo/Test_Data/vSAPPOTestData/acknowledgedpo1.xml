@@ -1,0 +1,40 @@
+<!--?xml version="1.0" ?-->
+<html xmlns="http://www.w3.org/1999/xhtml"><head></head><body><confirm_bod_ba_001>
+<cntrolarea>
+<bsr> 
+<verb value="process">process</verb>
+<noun value="po">po</noun>
+<revision value="004">004</revision>
+</bsr>
+<sender>
+<logicalid>vzlog_ack</logicalid>
+<component>vzl</component>
+<task>ack</task>
+<referenceid>0000000133959170</referenceid>
+<confirmation>2</confirmation>
+<language>eng</language>
+<codepage>iso 8859-1</codepage>
+<authid>sapwli</authid>
+</sender>
+<datetime qualifier="creation">
+<year>2015</year>
+<month>11</month>
+<day>6</day>
+<hour>6</hour>
+<minute>52</minute>
+<second>24</second>
+</datetime>
+</cntrolarea>
+<dataarea>
+<confirm_bod>
+<primary_key>
+<poid>8613124647</poid>
+<porelease>0</porelease>
+<ccrn_num>bsha04pvj4</ccrn_num>
+</primary_key>
+<ackcode>0</ackcode>
+<descriptn>accepted</descriptn>
+</confirm_bod>
+</dataarea>
+</confirm_bod_ba_001>
+</body></html>

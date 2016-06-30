@@ -1,0 +1,39 @@
+<!--?xml version="1.0" ?-->
+<html xmlns="http://www.w3.org/1999/xhtml"><head></head><body><confirm_bod_ba_001>
+<cntrolarea>
+<bsr> 
+<verb value="PROCESS">PROCESS</verb>
+<noun value="PROCESS">PROCESS</noun>
+<revision value="004">004</revision>
+</bsr>
+<sender>
+<logicalid>VZLOG_ACK</logicalid>
+<component>VZL</component>
+<task>ACK</task>
+<referenceid>Unknown Sender</referenceid>
+<confirmation>0</confirmation>
+<language>ENG</language>
+<codepage>ISO 8859-1</codepage>
+<authid>PKMSTIB</authid>
+</sender>
+<datetime qualifier="CREATION">
+<year>2015</year>
+<month>11</month>
+<day>17</day>
+<hour>7</hour>
+<minute>50</minute>
+<second>11</second>
+<subsecond>149</subsecond>
+<timezone>GMT-04:00</timezone>
+</datetime>
+</cntrolarea>
+<dataarea>
+<confirm_bod>
+<primary_key>
+<ackcode>3</ackcode>
+<descriptn> Unable to find root node</descriptn>
+</primary_key></confirm_bod>
+</dataarea>
+</confirm_bod_ba_001>
+
+</body></html>

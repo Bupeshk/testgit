@@ -1,0 +1,63 @@
+<PROCESS_WMS_STD_MESSAGE_001>
+    <CNTROLAREA>
+        <BSR>
+            <VERB value="PROCESS">PROCESS</VERB>
+            <NOUN value="WMS">WMS</NOUN>
+            <REVISION value="003">003</REVISION>
+        </BSR>
+        <SENDER>
+            <LOGICALID>CEVAPKMS</LOGICALID>
+            <COMPONENT>SCTWLI</COMPONENT>
+            <TASK>PKMSRECEIPTS</TASK>
+            <REFERENCEID>05945179400021</REFERENCEID>
+            <CONFIRMATION>0</CONFIRMATION>
+            <LANGUAGE>ENG</LANGUAGE>
+            <CODEPAGE>ISO 8859-1</CODEPAGE>
+            <AUTHID>PKMSTIB</AUTHID>
+        </SENDER>
+        <DATETIME qualifier="CREATION">
+            <YEAR>2015</YEAR>
+            <MONTH>02</MONTH>
+            <DAY>16</DAY>
+            <HOUR>20</HOUR>
+            <MINUTE>50</MINUTE>
+            <SECOND>16</SECOND>
+            <SUBSECOND>275</SUBSECOND>
+            <TIMEZONE>GMT-05:00</TIMEZONE>
+        </DATETIME>
+    </CNTROLAREA>
+    <DATAAREA>
+        <PROCESS_WMS>
+            <HEADER>
+                <TRAN_CODE>151</TRAN_CODE>
+                <DESCRIPTION>GOOD RECEIPTS</DESCRIPTION>
+                <WO_NUMBER>4A0AP9APA</WO_NUMBER>
+                <PO_NUMBER>8613124652</PO_NUMBER>
+                <OWNER_ID>BCLM</OWNER_ID>
+                <WAREHOUSE_ID>BCLB</WAREHOUSE_ID>
+                <DATETIME qualifier="NOTIFY">
+                    <YEAR>2015</YEAR>
+                    <MONTH>02</MONTH>
+                    <DAY>16</DAY>
+                    <HOUR>20</HOUR>
+                    <MINUTE>50</MINUTE>
+                    <SECOND>16</SECOND>
+                    <SUBSECOND>275</SUBSECOND>
+                    <TIMEZONE>GMT-05:00</TIMEZONE>
+                </DATETIME>
+                <DETAIL>
+                    <LINENUM>00010</LINENUM>
+                    <ITEM_NUMBER>11014893</ITEM_NUMBER>
+                    <PART_NUMBER/>
+                    <QUANTITY qualifier="RECEIVED">
+                        <VALUE>24</VALUE>
+                        <NUMOFDEC>0</NUMOFDEC>
+                        <SIGN>+</SIGN>
+                        <UOM>EA</UOM>
+                    </QUANTITY>
+                    <SERIAL_NUMBER/>
+                </DETAIL>
+            </HEADER>
+        </PROCESS_WMS>
+    </DATAAREA>
+</PROCESS_WMS_STD_MESSAGE_001>
